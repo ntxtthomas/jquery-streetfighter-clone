@@ -10,3 +10,27 @@ body {
 	position: relative; 
 	z-index: 1;
 }
+.ryu {
+	float: left;
+	width: 659px;
+	height: 494px;
+}
+.ryu-ready, .ryu-still, .ryu-throwing {
+	width: 659px;
+	height: 494px;
+}
+.ryu-ready, .ryu-throwing {
+	display: none;
+}
+.ryu-ready {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-ready-position_zpskzpr8luc.gif);
+}
+.ryu-still {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-standing-still_zps9epqyexc.png); 
+}
+.ryu-throwing {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-throwing-hadouken_zpsmmkrggc8.png);
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+  background-repeat: no-repeat;
+}
