@@ -23,28 +23,32 @@ body {
 	display: none;
 }
 .ryu-ready {
-	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-ready-position_zpskzpr8luc.gif);
+	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-ready-position_zpskzpr8luc.gif);*/
+	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-ready-position.gif);
 }
 .ryu-still {
-	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-standing-still_zps9epqyexc.png); 
+	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-standing-still_zps9epqyexc.png);*/
+	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-standing-still.png);  
 }
 .ryu-throwing {
-	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-throwing-hadouken_zpsmmkrggc8.png);
+	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-throwing-hadouken_zpsmmkrggc8.png);*/
+	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-throwing-hadouken.png);
 }
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   	background-repeat: no-repeat;
 }
 .hadouken {
-  	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/hadouken_zpssgff88yt.gif);
+  	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/hadouken_zpssgff88yt.gif);*/
+  	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/hadouken.gif);
   	width: 156px; 
   	height: 90px;
-  	display: none;
+  	/*display: none;*/
   	float: left;
   	position: absolute;
   	z-index: 10;
   	top: 167px;
-	left: 520px;
+	left: 560px;
 }
-* {
+/** {
   	outline: red 1px solid;
-}
+}*/
