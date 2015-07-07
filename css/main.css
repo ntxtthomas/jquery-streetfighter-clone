@@ -15,40 +15,78 @@ body {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool, .hadouken, .sf-logo, .jquery-logo, .brought-by, .how-to {
 	display: none;
 }
 .ryu-ready {
-	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-ready-position_zpskzpr8luc.gif);*/
-	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-ready-position.gif);
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-ready-position_zpskzpr8luc.gif);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-ready-position.gif);*/
 }
 .ryu-still {
-	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-standing-still_zps9epqyexc.png);*/
-	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-standing-still.png);  
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-standing-still_zps9epqyexc.png);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-standing-still.png);*/  
 }
 .ryu-throwing {
-	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-throwing-hadouken_zpsmmkrggc8.png);*/
-	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-throwing-hadouken.png);
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-throwing-hadouken_zpsmmkrggc8.png);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-throwing-hadouken.png);*/
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
-  	background-repeat: no-repeat;
+.ryu-cool {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/ryu-cool_zpsa3hiyu0b.gif);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/ryu-cool.gif);*/
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .sf-logo, .jquery-logo {
+  	background-repeat: none;
 }
 .hadouken {
-  	/*background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/hadouken_zpssgff88yt.gif);*/
-  	background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/hadouken.gif);
+  	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/hadouken_zpssgff88yt.gif);
+  	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/hadouken.gif);*/
   	width: 156px; 
   	height: 90px;
-  	/*display: none;*/
   	float: left;
   	position: absolute;
   	z-index: 10;
   	top: 167px;
 	left: 560px;
 }
-/** {
-  	outline: red 1px solid;
-}*/
+.sf-logo {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/sf-logo_zpsupnfnghi.png);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/sf-logo.png);*/
+	width: 682px;
+	height: 314px;
+}
+.jquery-logo {
+	background-image: url(http://i76.photobucket.com/albums/j3/apmtthomas/jquery-logo_zpsdeo3umcq.png);
+	/*background-image: url(/Users/Terry/Documents/Projects_FED/jquery-streetfighter-clone/images/jquery-logo.png);*/
+	width: 500px;
+	height: 172px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.brought-by {
+	text-align: center;
+	margin-top: 100px;
+}
+.how-to {
+}
+
+.how-to p {
+	width: 50%;
+	color: black;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+.how-to p + p {
+	margin-left: 275px;
+}
+
+
+
+/*holding here for HTML used on connectivity status;
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="http://code.jquery.com/jquery.min.js"></script>*/
