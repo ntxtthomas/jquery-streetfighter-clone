@@ -70,10 +70,10 @@ function doIntro() {
                             $(this).fadeOut(1500, function() {
                                 $('.how-to').fadeIn(1000);
     
-            });
+            })
           })
         })
       })
     })
   })
-}
+};
