@@ -74,9 +74,11 @@ body {
 .brought-by, .how-to {
 	display: none;
 	color: red;
-	font-family: 'Rock Salt', cursive;
 	font-size: 50px;
 	width: 600px;
+	font-family: 'Rock Salt';
+	font-style: italic;
+	font-weight: 400
 }
 .brought-by {
 	text-align: center;
