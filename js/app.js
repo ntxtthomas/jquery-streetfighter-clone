@@ -54,12 +54,12 @@ function playHadouken() {
         $('#hadouken-sound')[0].play();
     };
 function playCool() {
-        $('#Cool-sound')[0].volume = 0.25;
+        $('#Cool-sound')[0].volume = 0.3;
         $('#Cool-sound')[0].load();
         $('#Cool-sound')[0].play();
     };
 function doIntro() {
-        $('#theme-song')[0].volume = 0.25;
+        $('#theme-song')[0].volume = 0.0;
         $('#theme-song')[0].load();
         $('#theme-song')[0].play();
         $('.sf-logo').fadeIn(3500, function() {
