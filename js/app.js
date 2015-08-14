@@ -59,7 +59,7 @@ function playCool() {
         $('#Cool-sound')[0].play();
     };
 function doIntro() {
-        $('#theme-song')[0].volume = 0.0;
+        $('#theme-song')[0].volume = 0.3;
         $('#theme-song')[0].load();
         $('#theme-song')[0].play();
         $('.sf-logo').fadeIn(3500, function() {
