@@ -46,6 +46,7 @@ $(document).keydown(function(e){
             $('#Cool-sound')[0].load();
             $('.ryu-cool').hide();
             $('.ryu-still').show();
+            $('.ryu-ready').show();
         }
     });
 function playHadouken() {
