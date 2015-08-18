@@ -1,12 +1,14 @@
-var pressed=false
+var pressed=false;
+var mouseinside=false;
 $(document).ready(function(){
     doIntro();
 
     $('.ryu').mouseenter(function(){
-        $('.ryu-still').hide();
+        mouseinside=true;
         $('.ryu-ready').show();
         })
     .mouseleave(function(){
+        mouseinside=false;
         $('.ryu-still').show();
         $('.ryu-ready').hide();
         })
