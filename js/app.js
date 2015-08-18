@@ -1,10 +1,10 @@
-var pressed=false;
-var mouseinside=false;
+var pressed=false,mouseinside=false;
 $(document).ready(function(){
     doIntro();
 
     $('.ryu').mouseenter(function(){
         mouseinside=true;
+        $('.ryu-still').hide();
         $('.ryu-ready').show();
         })
     .mouseleave(function(){
@@ -35,6 +35,8 @@ $(document).keydown(function(e){
             return;
         if (e.keyCode == 88) {
             pressed=true;
+        if (mouseinside){
+        }
         playCool();
             $('.ryu-still').hide();
             $('.ryu-ready').hide();
@@ -48,7 +50,8 @@ $(document).keydown(function(e){
             $('#Cool-sound')[0].load();
             $('.ryu-cool').hide();
             $('.ryu-still').show();
-            if (e.mouseenter == true) {
+            if (mouseinside) {
+                $('.ryu-still').hide();
                 $('.ryu-ready').show();
         }}
     });
