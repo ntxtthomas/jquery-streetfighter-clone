@@ -46,21 +46,22 @@ $(document).keydown(function(e){
             $('#Cool-sound')[0].load();
             $('.ryu-cool').hide();
             $('.ryu-still').show();
-            $('.ryu-ready').show();
-        }
+            if (e.mouseenter == true) {
+                $('.ryu-ready').show();
+        }}
     });
 function playHadouken() {
-        $('#hadouken-sound')[0].volume = 0.5;
+        $('#hadouken-sound')[0].volume = 0.0;
         $('#hadouken-sound')[0].load();
         $('#hadouken-sound')[0].play();
     };
 function playCool() {
-        $('#Cool-sound')[0].volume = 0.3;
+        $('#Cool-sound')[0].volume = 0.0;
         $('#Cool-sound')[0].load();
         $('#Cool-sound')[0].play();
     };
 function doIntro() {
-        $('#theme-song')[0].volume = 0.25;
+        $('#theme-song')[0].volume = 0.0;
         $('#theme-song')[0].load();
         $('#theme-song')[0].play();
         $('.sf-logo').fadeIn(3500, function() {
