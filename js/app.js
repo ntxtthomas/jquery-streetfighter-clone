@@ -14,6 +14,7 @@ $(document).ready(function(){
         mouseinside=false;
         $('.ryu-still').show();
         $('.ryu-ready').hide();
+        $('.ryu-throwing').hide();
         })
     .mousedown(function() {
         playHadouken();
